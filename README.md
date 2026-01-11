@@ -25,3 +25,11 @@ AI agent-ready CLI for Paperless-ngx document management.
 ```bash
 brew install julianfbeck/tap/paperless
 ```
+
+### overseerr 📺
+
+AI agent-ready CLI for Overseerr media request management.
+
+```bash
+brew install julianfbeck/tap/overseerr
+```
