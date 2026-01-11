@@ -5,12 +5,12 @@
 class Bring < Formula
   desc "CLI for the Bring! shopping list app"
   homepage "https://github.com/julianfbeck/bring-cli"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
-    url "https://github.com/julianfbeck/bring-cli/releases/download/v0.1.2/bring-cli-macos-universal.tar.gz"
-    sha256 "c1aa7fe8dd679c0873a943c6c4a86141acff13735235ba410177611feda4db26"
+    url "https://github.com/julianfbeck/bring-cli/releases/download/v0.1.3/bring-cli-macos-universal.tar.gz"
+    sha256 "b4d24834520af14f3bcaea3cc60f1342f269624e76d183924f79d67955a7d3cd"
 
     def install
       bin.install "bring"
@@ -19,15 +19,15 @@ class Bring < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/julianfbeck/bring-cli/releases/download/v0.1.2/bring-cli-linux-amd64.tar.gz"
-      sha256 "ae727a6f2a01098135baeb9112c32a8f92f74ec065d69c765d413c047c8ddb89"
+      url "https://github.com/julianfbeck/bring-cli/releases/download/v0.1.3/bring-cli-linux-amd64.tar.gz"
+      sha256 "fc478dc6c16646f50ac245c388f64ddce82972a4e7a90d3e56fae76ec084923f"
       def install
         bin.install "bring"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/julianfbeck/bring-cli/releases/download/v0.1.2/bring-cli-linux-arm64.tar.gz"
-      sha256 "c924fe6431f48dff26e370848b05884bbb0dacc43993426fe8de84e026dbb746"
+      url "https://github.com/julianfbeck/bring-cli/releases/download/v0.1.3/bring-cli-linux-arm64.tar.gz"
+      sha256 "d60d279b39afec70acfd28c4ecf394433e44507845a6aa430cddf44fe4d6087b"
       def install
         bin.install "bring"
       end
