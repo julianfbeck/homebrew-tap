@@ -36,7 +36,7 @@ brew install julianfbeck/tap/overseerr
 
 ### jellyfin-download 📥
 
-CLI to download Jellyfin movies and episodes.
+Jellyfin downloader with Plex-ready folder layout.
 
 ```bash
 brew install julianfbeck/tap/jellyfin-download
