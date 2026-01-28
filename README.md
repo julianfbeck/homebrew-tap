@@ -33,3 +33,11 @@ AI agent-ready CLI for Overseerr media request management.
 ```bash
 brew install julianfbeck/tap/overseerr
 ```
+
+### jellyfin-download 📥
+
+CLI to download Jellyfin movies and episodes.
+
+```bash
+brew install julianfbeck/tap/jellyfin-download
+```
