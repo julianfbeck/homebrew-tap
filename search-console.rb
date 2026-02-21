@@ -5,12 +5,12 @@
 class SearchConsole < Formula
   desc "CLI for Google Search Console reporting"
   homepage "https://github.com/julianfbeck/search-console-cli"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
-    url "https://github.com/julianfbeck/search-console-cli/releases/download/v0.3.0/search-console-cli-macos-universal.tar.gz"
-    sha256 "72fbbb441306171456935b614f653752dee2403bd88f8e67eec9c9c57e1fc861"
+    url "https://github.com/julianfbeck/search-console-cli/releases/download/v0.4.0/search-console-cli-macos-universal.tar.gz"
+    sha256 "7fb078dafb86db079df957b5b1e6429aa8489cf5603d9d985bb14309fc873419"
 
     def install
       bin.install "search-console"
@@ -19,15 +19,15 @@ class SearchConsole < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/julianfbeck/search-console-cli/releases/download/v0.3.0/search-console-cli-linux-amd64.tar.gz"
-      sha256 "6e633b9b66e27fb1cb0b4192dc7bdbf3c164fddbdb264cc5003cd85b19925679"
+      url "https://github.com/julianfbeck/search-console-cli/releases/download/v0.4.0/search-console-cli-linux-amd64.tar.gz"
+      sha256 "33185e7c234a8cb231572bb6fe85efb5c7a5c1060d9713afc8f7c0ca73e8fdc6"
       def install
         bin.install "search-console"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/julianfbeck/search-console-cli/releases/download/v0.3.0/search-console-cli-linux-arm64.tar.gz"
-      sha256 "aa068b8e345124053bffbc5019457ace148b1857dd36c161f9d6c31661378ed2"
+      url "https://github.com/julianfbeck/search-console-cli/releases/download/v0.4.0/search-console-cli-linux-arm64.tar.gz"
+      sha256 "e962f263ce267d3d7a6ec424702a8ab86abc26fbe7c67ec23567bf6c5c81ca8c"
       def install
         bin.install "search-console"
       end
