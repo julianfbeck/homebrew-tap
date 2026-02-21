@@ -41,3 +41,11 @@ Jellyfin downloader with Plex-ready folder layout.
 ```bash
 brew install julianfbeck/tap/jellyfin-download
 ```
+
+### search-console 🔎
+
+CLI for Google Search Console reporting.
+
+```bash
+brew install julianfbeck/tap/search-console
+```
